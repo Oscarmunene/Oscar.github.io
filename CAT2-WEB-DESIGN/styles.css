@@ -1,0 +1,50 @@
+body {
+    background: rgb(35, 196, 199);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#registration-form {
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:30px;
+}
+
+#registration-form h1 {
+    text-align: center;
+    color: purple;
+}
+
+#registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="tel"],
+#registration-form input[type="password"] {
+    width:100%;
+    padding:10px;
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#registration-form input[type="submit"] {
+    width:100%;
+    padding:10px;
+    background-color: purple;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration-form input[type="submit"]:hover {
+    background-color: purple;
+}
