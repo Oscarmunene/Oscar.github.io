@@ -1,0 +1,176 @@
+body  {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(/images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+}     
+
+header {
+    background-color: color black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 40px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.home {
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.products {
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.products ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.products li {
+    flex: 1 1 300px;
+    margin: 1rem;
+    text-align: left;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.products h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.products p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.products a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.faq {
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.faq ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.faq li {
+    margin-bottom: 1rem;
+}
+
+.faq h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(46, 45, 45);
+    color: WHITE;
+    padding: 1rem;
+    text-align: center;
+}
